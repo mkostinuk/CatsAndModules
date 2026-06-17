@@ -50,5 +50,5 @@ public func getDogs() async throws -> [CatDog] {
 }
 
 public extension CatDog{
-    var name: String {["Meow or Haw", "UKma Cat", "Frankiv the best", "CatDogIOS", "---"].randomElement()!}
+    var name: String {["Meow or Haw", "UKma Cat", "Frankiv the best", "CatDogIOS", "---", "Animal"].randomElement()!}
 }
